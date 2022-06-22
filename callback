@@ -1,0 +1,28 @@
+const somar = (num1,num2)=> num1+num2;
+
+
+const subtrair =(num1,num2)=>num1-num2;
+
+
+const dividir = (num1,num2)=>num1/num2;
+
+const calcaladora = (num1,num2,calcular)=>calcular(num1,num2);
+//console.log(calcaladora(20,50,somar))
+
+const multiplicar = (num1,num3)=> num1*num3
+
+const porcentagem = (num1,num2)=> num1%num2
+
+const resultado = (num1,num2,calculo)=>calculo(num1,num2)
+
+//console.log (resultado(20,34,porcentagem))
+
+
+
+const cartaDeAmor = (par1,par2)=>par1+par2;
+
+const minhaEsposa = (par1,par2)=>par1+par2;
+
+const resposta =(par1,par2,amor)=>amor(par1,par2);
+
+console.log(resposta("teamo","tequero",cartaDeAmor))

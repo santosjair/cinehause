@@ -1,0 +1,11 @@
+let jair = {
+
+    mae: "maria",
+   pai: "ndeclarado",
+    esposa: "eliana",
+    filhos:"estertiagoejair"
+
+}
+for(let familia in jair){
+    console.log(jair[familia])// o for-in funciona da seguinte forma; vc cria uma variavel e dentro dela vc utilizar o for-in
+}
